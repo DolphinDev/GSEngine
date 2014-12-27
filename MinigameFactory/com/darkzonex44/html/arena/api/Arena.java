@@ -11,6 +11,8 @@ private int max;
 private int min;
 private String game;
 private boolean full;
+public ArrayList<UUID> players = new ArrayList<UUID>();
+
 
 
 /** ^ Not Sorted Yet **/
@@ -23,5 +25,19 @@ private boolean full;
 
 
 /** Methods **/
+
+public UUID get(Player player){
+  
+ 
+  return Bukkit.getPlayer(player);
+  
+  
+  
+  
+  
+}
+
+
+
 
 }
